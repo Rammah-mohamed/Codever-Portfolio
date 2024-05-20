@@ -1,0 +1,24 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+	:root {
+		--main-color: 69 71 75;
+		--second-color: 244 206 20;
+		--light-color: 73 94 87;
+		--font-color: 245 247 248;
+	}
+}
+
+body {
+	font-family: "Ubuntu", sans-serif;
+}
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	list-style: none;
+	scroll-behavior: smooth;
+}

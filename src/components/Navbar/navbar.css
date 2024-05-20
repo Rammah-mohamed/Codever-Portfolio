@@ -1,0 +1,10 @@
+#navbar #right svg {
+	font-size: 40px;
+	cursor: pointer;
+}
+
+@media screen and (max-width: 767px) {
+	#navbar #right svg {
+		font-size: 30px;
+	}
+}
