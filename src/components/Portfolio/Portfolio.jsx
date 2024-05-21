@@ -70,7 +70,7 @@ const Portfolio = () => {
 							key={i.id}
 							className='group w-80 max-[991px]:w-64 max-[991px]:h-36 h-48  relative rounded-xl overflow-hidden hover:skew-x-[-4deg] hover:scale-105 hover:shadow-lg hover:shadow-secondLight transition-all duration-1000 cursor-pointer'>
 							<div className='w-full h-full absolute bg-secondLight opacity-0 group-hover:opacity-100 transition-opacity duration-1000 z-20'></div>
-							<a href={i.url} className='block w-full h-full'>
+							<a href={i.url} target='_blank' className='block w-full h-full'>
 								<h3 className='w-max text-2xl text-main font-bold z-30 opacity-0 group-hover:opacity-100 transition-opacity duration-1000 absolute top-1/2 left-1/2 translate-x-[-50%] translate-y-[-50%]'>
 									{i.name}
 								</h3>

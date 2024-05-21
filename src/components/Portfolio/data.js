@@ -16,23 +16,24 @@ import codeverDash from "../../imgs/codeverDash.png";
 import ecommerce from "../../imgs/e-commerce.png";
 import tic from "../../imgs/tic.png";
 import booking from "../../imgs/booking.png";
+import netflix from "../../imgs/netflix.png";
 
 export const featured = [
 	{
 		id: "1",
-		url: "https://rammah-mohamed.github.io/special-Template",
-		name: "Special Template",
-		img: special,
+		url: "https://codever-netflix.vercel.app",
+		name: "Netflix Clone",
+		img: netflix,
 	},
 	{
 		id: "2",
-		url: "https://rammah-mohamed.github.io/Tic-Tac-Toe",
-		name: "Tic-Tac-Toe",
-		img: tic,
+		url: "https://rammah-mohamed.github.io/Quiz-App",
+		name: "Quiz-App",
+		img: quiz,
 	},
 	{
 		id: "3",
-		url: "https://coderver-youtube.netlify.app",
+		url: "https://youtube-clone-virid-zeta.vercel.app.vercel.app",
 		name: "Youtube Clone",
 		img: youtube,
 	},
@@ -44,15 +45,15 @@ export const featured = [
 	},
 	{
 		id: "5",
-		url: "https://rammah-mohamed.github.io/Music-Player",
-		name: "Music Player",
-		img: music,
+		url: "https://rammah-mohamed.github.io/special-Template",
+		name: "Special Template",
+		img: special,
 	},
 	{
 		id: "6",
-		url: "https://rammah-mohamed.github.io/Quiz-App",
-		name: "Quiz-App",
-		img: quiz,
+		url: "https://rammah-mohamed.github.io/Music-Player",
+		name: "Music Player",
+		img: music,
 	},
 ];
 
@@ -98,77 +99,84 @@ export const templates = [
 export const jsApps = [
 	{
 		id: "1",
-		url: "https://rammah-mohamed.github.io/Note-App",
-		name: "Note App",
-		img: note,
-	},
-	{
-		id: "2",
-		url: "https://rammah-mohamed.github.io/Typing-Speed-Test-Game",
-		name: "Typing Speed test",
-		img: ty,
-	},
-	{
-		id: "3",
-		url: "https://rammah-mohamed.github.io/Music-Player",
-		name: "Music Player",
-		img: music,
-	},
-	{
-		id: "4",
-		url: "https://rammah-mohamed.github.io/Weather-App",
-		name: "Weather App",
-		img: weather,
-	},
-	{
-		id: "5",
-		url: "https://rammah-mohamed.github.io/Calculator",
-		name: "Calculator",
-		img: calc,
-	},
-	{
-		id: "6",
 		url: "https://rammah-mohamed.github.io/Quiz-App",
 		name: "Quiz-App",
 		img: quiz,
 	},
 	{
-		id: "7",
+		id: "2",
+		url: "https://rammah-mohamed.github.io/Music-Player",
+		name: "Music Player",
+		img: music,
+	},
+	{
+		id: "3",
 		url: "https://rammah-mohamed.github.io/Tic-Tac-Toe",
 		name: "Tic-Tac-Toe",
 		img: tic,
+	},
+	{
+		id: "4",
+		url: "https://rammah-mohamed.github.io/Typing-Speed-Test-Game",
+		name: "Typing Speed test",
+		img: ty,
+	},
+	{
+		id: "5",
+		url: "https://rammah-mohamed.github.io/Weather-App",
+		name: "Weather App",
+		img: weather,
+	},
+	{
+		id: "6",
+		url: "https://rammah-mohamed.github.io/Calculator",
+		name: "Calculator",
+		img: calc,
+	},
+	{
+		id: "7",
+		url: "https://rammah-mohamed.github.io/Note-App",
+		name: "Note App",
+		img: note,
 	},
 ];
 
 export const reactApps = [
 	{
 		id: "1",
-		url: "https://rammah-gym.netlify.app",
-		name: "Gym App",
-		img: gym,
+		url: "https://codever-netflix.vercel.app",
+		name: "Netflix Clone",
+		img: netflix,
 	},
+
 	{
 		id: "2",
-		url: "https://coderver-youtube.netlify.app",
+		url: "https://youtube-clone-virid-zeta.vercel.app",
 		name: "Youtube Clone",
 		img: youtube,
 	},
 	{
 		id: "3",
-		url: "https://codever-dashboard.netlify.app/",
+		url: "https://codever-darshboard.vercel.app",
 		name: "codever Dashboard",
 		img: codeverDash,
 	},
 	{
 		id: "4",
-		url: "https://codever-ecommerce.netlify.app",
+		url: "https://codever-e-commerce.vercel.app",
 		name: "E-Commerce",
 		img: ecommerce,
 	},
 	{
 		id: "5",
-		url: "https://codever-booking.netlify.app",
+		url: "https://codever-booking.vercel.app",
 		name: "Codever Booking",
 		img: booking,
+	},
+	{
+		id: "6",
+		url: "https://rammah-gym.netlify.app",
+		name: "Gym App",
+		img: gym,
 	},
 ];

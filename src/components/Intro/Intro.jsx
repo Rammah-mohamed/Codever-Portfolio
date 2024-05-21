@@ -5,10 +5,10 @@ const Intro = () => {
 	return (
 		<div
 			id='intro'
-			className='w-full pb-10 pt-[64px] max-[767px]:p-[150px] max-[1199px]:pt-[150px] bg-main text-font w-full min-h-screen flex max-[767px]:flex-col max-[1199px]:flex-col items-center gap-14'>
+			className='w-full pb-10 pt-[64px] max-[1199px]:pt-[150px] bg-main text-font w-full min-h-screen flex max-[767px]:flex-col max-[1199px]:flex-col items-center gap-14'>
 			<div
 				id='left'
-				className='flex flex-col flex-1 items-center justify-center gap-10 max-[767px]:gap-5'>
+				className='flex flex-col flex-1 items-center justify-center gap-10 max-[767px]:gap-5 max-[1199px]:pt-[100px]'>
 				<span className='text-3xl max-[767px]:text-lg max-[1199px]:text-2xl text-semibold mb-[-1.8rem] max-[767px]:mb-[-1rem]'>
 					<TypingAnimation text="Hi, I'm There" />
 				</span>
